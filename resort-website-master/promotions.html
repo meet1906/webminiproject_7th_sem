@@ -11,6 +11,8 @@
 		.others {display: flex;flex-wrap: wrap;width: 80%;margin: 0 auto;}
 		.top-btn a {position: absolute;left: 70%;}
 		.home-btn {margin: 5px auto;width: 10%;}.home-btn img {padding-left: 35px;width: 30px;height: 30px;}
+		.column {float: left; width: 30%; padding: 3px;}
+		.row::after {content: ""; clear: both; display: table;}
 	</style>
 </head>
 <body>
@@ -92,8 +94,21 @@
 	<div class="promotions">
 		<center><h2>PROMOTIONS</h2></center>
 		<div class="promotion-image">
-			<h3>Special Offer</h3>
-			<a href="img/TokAman-Ceria-Merdeka-726x1024.jpg" target="_blank"><img src="img/TokAman-Ceria-Merdeka.jpg" alt="promotions" title="TokAman-Ceria-Merdeka"></a>
+			<div class="row">
+			<div class="column">
+				<h3>Special Offer 1</h3>
+				<a href="img/TokAman-Ceria-Merdeka-726x1024.jpg" target="_blank"><img src="img/TokAman-Ceria-Merdeka.jpg" alt="promotions" title="TokAman-Ceria-Merdeka"></a>
+			</div>
+			<div class="column">
+				<h3>Special Offer 2</h3>
+				<a href="img/TokAman-Ceria-Merdeka-726x1024.jpg" target="_blank"><img src="img/TokAman-Ceria-Merdeka.jpg" alt="promotions" title="TokAman-Ceria-Merdeka"></a>
+			</div>
+
+			<div class="column">
+				<h3>Special Offer 3</h3>
+				<a href="img/TokAman-Ceria-Merdeka-726x1024.jpg" target="_blank"><img src="img/TokAman-Ceria-Merdeka.jpg" alt="promotions" title="TokAman-Ceria-Merdeka"></a>
+			</div>
+		</div>
 		</div>
 		<div class="others">
 			<div class="top-btn">
